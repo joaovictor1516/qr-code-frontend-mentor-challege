@@ -14,6 +14,7 @@ main {
     justify-content: space-evenly;
     background-color: #FFF;
     padding: 15px;
+    row-gap: 15px;
 }
  
 main, img {
@@ -35,13 +36,17 @@ p {
     font-size: 15px;
     text-align: center;
     width: 200px;
+    margin: 0;
+}
+
+footer{
+    margin-top: 10px;
 }
 
 footer > p{
-    width: 300px;
+    width: 260px;
     font-weight: 400;
     font-size: 12px;
-    
 }
 
 #primaryText {
