@@ -1,0 +1,55 @@
+body {
+    background-color: #D5E1EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFF;
+    padding: 15px;
+}
+ 
+main, img {
+    border-radius: 20px;
+}
+
+img {
+    height: 200px;
+    width: 240px;
+}
+
+a {
+    color: #3E52A3;
+    text-decoration: none;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+footer > p{
+    width: 300px;
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+
+#primaryText {
+    color: #1F3251;
+    font-weight: 700;
+}
+
+#secundaryText {
+    color: #7B879D;
+    font-weight: 400;
+}
